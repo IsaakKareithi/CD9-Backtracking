@@ -5,7 +5,7 @@ class item:
         self.profit = profit
         self.weight = weight
 
-# Main greedy functioin tovsolve problem
+# Main greedy function to solve problem
 def fractionalKnapsack(w, arr):
 
     #Sorting item on basis of ratio
