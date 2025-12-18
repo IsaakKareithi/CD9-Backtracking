@@ -5,7 +5,7 @@
 n = 4
 
 # A utility function to check if x, y is valid
-# index for N * N Maze
+# index for N * N MAze
 
 def isValid(n, maze, x, y, res):
     if (x >= 0 and y >= 0 and x < n and y < n and maze[x][y] == 1
