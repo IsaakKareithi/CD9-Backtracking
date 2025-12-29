@@ -30,6 +30,6 @@ if __name__ == "__main__":
     selected = MaxActivities(Activity, n)
     print("The following activities are selected: ")
     print(selected[0], end=' ')
-    for i in range(0, len(selected)):
+    for i in range(1, len(selected)):
         print(",", end=" ")
         print(selected[i], end=' ') 
